@@ -1,0 +1,114 @@
+body {
+    font-family: "Kodchasan", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto; 
+    width: 100%; 
+    padding: 20px; 
+}
+
+#contato-form {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 32px 64px #0000001a;
+    padding: 20px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#container > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #072331;
+}
+
+#contato-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#contato-form input[type="text"],
+#contato-form input[type="tel"],
+#contato-form input[type="email"],
+#contato-form select,
+#contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#contato-form input[type="radio"] {
+    margin-right: 10px;
+}
+
+#contato-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+#contato-form legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#contato-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #217049;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contato-form button:hover {
+    background-color: #2bbd76;
+}
+
+@media (max-width: 767px) {
+    #container {
+        padding: 10px; 
+    }
+
+    #contato-form {
+        padding: 10px; 
+    }
+
+    #container > h1 {
+        font-size: 24px;
+    }
+
+    #contato-form label,
+    #contato-form input[type="text"],
+    #contato-form input[type="tel"],
+    #contato-form input[type="email"],
+    #contato-form select,
+    #contato-form textarea {
+        font-size: 14px;
+    }
+
+    #contato-form textarea {
+        height: 150px;
+    }
+
+    #contato-form fieldset {
+        flex-direction: column;
+    }
+}
