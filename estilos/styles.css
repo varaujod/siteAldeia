@@ -125,6 +125,10 @@ footer{
     color: #faebd7;
 }
 
+footer > img{
+    height: 150px;
+}
+
 #unidades > h4{
     margin-top: 50px;
     margin-right: 20px;
