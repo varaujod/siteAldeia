@@ -116,17 +116,13 @@ nav a i {
 }
 
 footer{
-    height: 170px;
+    height: 200px;
     display: grid;
     grid-template-columns: 1fr 3fr;
     justify-self: end;
     padding: 30px;
     background-color: #072331;
     color: #faebd7;
-}
-
-footer > img{
-    height: 150px;
 }
 
 #unidades > h4{
